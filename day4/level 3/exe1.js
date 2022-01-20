@@ -12,7 +12,9 @@ switch (month) {
         console.log(month, " has 31 days");
         break;
     case "february":
-        isleap ? console.log(month, " has 29 days") : console.log(month, " has 28 days");
+        isleap
+            ? console.log(month, " has 29 days")
+            : console.log(month, " has 28 days");
         break;
     case "march":
         console.log(month, " has 31 days");
