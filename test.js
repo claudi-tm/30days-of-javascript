@@ -1,10 +1,4 @@
-const people = [
-    {name: "Claudio"},
-    {name: "Igor"}
-];
-
-function isClaudio(person, toSearch){
-    return person.name === toSearch;
-}
-
-console.log(people.find(isClaudio("Claudio")))
+let arr = [3, 1, 2, 120, -10];
+console.log(arr.sort((a, b) => {
+    return a - b
+}))
