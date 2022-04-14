@@ -1,4 +1,3 @@
-let arr = [3, 1, 2, 120, -10];
-console.log(arr.sort((a, b) => {
-    return a - b
-}))
+const arr = [-11, 2, "3"];
+let val = arr.some((value) => typeof(value) === "string");
+console.log(val);
